@@ -192,7 +192,7 @@ OpenAL initialized.
 [10:53:24] [Client thread/ERROR]: The following problems were captured during this phase
 [10:53:24] [Client thread/ERROR]: Caught exception from OpenAutomationAddons
 java.lang.NullPointerException
-	at com.awesomesauce.minecraft.forge.openautomation.addons.tile.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15) ~[OpenAutomation-0.3.0.jar:?]
+	at com.awesomesauce.minecraft.forge.openautomation.common.oc.te.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.core.lib.util.ItemUtil$.makeBlock(Util.scala:163) ~[AwesomeSauceCore-0.5.0.jar:?]
@@ -238,7 +238,7 @@ java.lang.NullPointerException
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
 [10:53:24] [Client thread/ERROR]: Caught exception from OpenAutomation
 java.lang.NullPointerException
-	at com.awesomesauce.minecraft.forge.openautomation.common.te.TileEntityItemIO.<init>(TileEntityItemIO.scala:22) ~[OpenAutomation-0.3.0.jar:?]
+	at com.awesomesauce.minecraft.forge.openautomation.common.oc.te.TileEntityItemIO.<init>(TileEntityItemIO.scala:22) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.openautomation.common.OpenAutomation$$anonfun$init$1.apply(OpenAutomation.scala:73) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.openautomation.common.OpenAutomation$$anonfun$init$1.apply(OpenAutomation.scala:73) ~[OpenAutomation-0.3.0.jar:?]
 	at com.awesomesauce.minecraft.forge.core.lib.util.ItemUtil$.makeBlock(Util.scala:163) ~[AwesomeSauceCore-0.5.0.jar:?]
@@ -289,7 +289,7 @@ Time: 29/06/14 10:53 AM
 Description: Initializing game
 
 java.lang.NullPointerException: Initializing game
-	at com.awesomesauce.minecraft.forge.openautomation.addons.tile.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15)
+	at com.awesomesauce.minecraft.forge.openautomation.common.oc.te.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15)
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42)
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42)
 	at com.awesomesauce.minecraft.forge.core.lib.util.ItemUtil$.makeBlock(Util.scala:163)
@@ -340,7 +340,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.awesomesauce.minecraft.forge.openautomation.addons.tile.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15)
+	at com.awesomesauce.minecraft.forge.openautomation.common.oc.te.TileEntityPressureCrusher.<init>(TileEntityPressureCrusher.scala:15)
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42)
 	at com.awesomesauce.minecraft.forge.openautomation.addons.OpenAutomationAddons$$anonfun$init$1.apply(OpenAutomationAddons.scala:42)
 	at com.awesomesauce.minecraft.forge.core.lib.util.ItemUtil$.makeBlock(Util.scala:163)
